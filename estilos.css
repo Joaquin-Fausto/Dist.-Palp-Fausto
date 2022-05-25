@@ -100,6 +100,7 @@ h3{
     border-style: double;
     border-radius: 30px;
     border-width: 20px;
+    text-shadow: 2px 2px 7px black
 }
 .navegacion{
     width: 420px;
@@ -127,4 +128,4 @@ h3{
 .footer .datos{
     padding-bottom: 225px;
 }
-@media only screen and ()
+
