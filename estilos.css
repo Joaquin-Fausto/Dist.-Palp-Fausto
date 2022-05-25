@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(16, 124, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid;
+    height: 50px;
+    align-items: flex-end;
+}
+header h1{
+    float: left;
+    text-align: left;
+    color: rgb(249, 243, 231);
+    text-shadow: 2px 2px 7px black;
+}
+header li a{
+    
+    text-shadow: 2px 2px 7px black;
+}
+header li{
+    display: inline-block;
+    width: auto;
+}
+header li a{
+    text-decoration: none;
+    color: rgb(244, 239, 227);
+}
+header li a:hover{
+    color: rgb(16, 16, 17);
+}
+body{
+    background-color: rgb(231, 215, 195); 
+   
+}
+footer{
+    background-color:  rgb(16, 124, 112);
+    border: 2px solid
+}
+h2{
+    color: rgb(227, 235, 241);
+    background-color: #107c70;
+    text-align: left;
+    font-size: 28px;
+    border-style: initial;
+    border-radius: 50px;
+    border-width: 50px;
+    width: 140px;
+    text-shadow: 1px 1px 7px black;
+}
+footer a{
+    color: rgb(235, 229, 212);
+    font-size: 20px;
+
+}
+footer a:hover{
+    color: rgb(6, 6, 6);
+}
+footer li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.lacteos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "pr1 pr2";
+    overflow-x: scroll;
+}
+
+.condimentos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "pr3 pr4";
+    overflow-x: scroll;
+}
+.frutos-secos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "pr5 pr6";
+    overflow-x: scroll;
+}
+.congelados{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "pr7 pr8";
+    overflow-x: scroll;
+}
+.frutas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "pr9 pr10";
+    overflow-x: scroll;
+}
+h3{
+    color: rgb(227, 235, 241);
+    background-color: rgb(16, 124, 112);
+    text-align: center;
+    font-size: 30px;
+    border-style: double;
+    border-radius: 30px;
+    border-width: 20px;
+}
+.navegacion{
+    width: 420px;
+    margin: 0px 800px;
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    transition: all .3s; 
+}
+.footer{
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0px;
+    padding: 0px 0px;
+    justify-content: stretch;
+    align-items:flex-end;
+}
+.footer .pagos{
+    padding-bottom: 225px;
+}
+.footer .datos{
+    padding-bottom: 225px;
+}
+@media only screen and ()

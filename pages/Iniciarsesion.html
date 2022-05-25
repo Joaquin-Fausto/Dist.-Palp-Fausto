@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Distruibidora Palp</h1>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/Contacto.html">Contacto</a></li>
+            <li><a href="../pages/Carrito.html">Carrito</a></li>
+            <li><a href="../pages/Iniciarsesion.html">Iniciar Sesión</a></li>
+        </ul>
+ 
+    </header>
+    <main>
+        <form action="enviar.php" method="post" enctype="text/plain">
+            <label for="mail">Email</label>
+            <input type="mail" placeholder="Escribe tu mail"  name="mail" required><br>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" placeholder="Escriba contraseña" required><br>
+            <input type="submit" value="Enviar"><br>
+        </form>
+    </main>
+    <footer>
+        <section>
+            <ul type="circle">
+                <li>Ubicación: Mataderos, Buenos Aires, Argentina 1440</li>
+                <li>Whatssap: +54 9 11 6102-8915</li>
+                <li>Mail: distruibidorapalp@gmail.com</li>
+                <li>Teléfono: 011-6051-9034</li>
+            </ul>        
+        </section>
+        <section>
+            <h4>Formas de pago:</h4>
+            <select name="Formas de pago">
+                <option>Mastercard</option>
+                <option>Paypal</option>
+                <option>Pagos en efectivo</option>
+                <option>Visa</option>
+            </select>
+        </section> 
+        <section>
+            <a href="/pages/Horarios.html">Horarios</a>
+        </section> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.816721628955!2d-58.57005134982116!3d-34.659331280349086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7c50e76a93b%3A0x64c4371dc0320df6!2sArgentina%201440%2C%20B1704DIX%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1650418941927!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+    </footer>
+</body>
+</html>
